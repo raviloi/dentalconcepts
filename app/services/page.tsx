@@ -110,7 +110,7 @@ export default function ServicesPage() {
                       ))}
                     </ul>
                     <div className="flex gap-4">
-                      <BookAndPayButton className="flex-1" />
+                      <BookAndPayButton />
                       <a
                         href={`https://wa.me/919876543210?text=Hi! I want to book ${encodeURIComponent(service.title)}`}
                         className="flex-1 bg-white border-2 border-teal-600 text-teal-600 font-bold py-4 px-6 rounded-full hover:bg-teal-50 transition text-center"
